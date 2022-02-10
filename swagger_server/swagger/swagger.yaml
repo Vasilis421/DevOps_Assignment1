@@ -61,7 +61,8 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Student'
+                type: number
+                format: integer
         "400":
           description: invalid ID
         "404":
