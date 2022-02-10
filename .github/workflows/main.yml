@@ -2,7 +2,7 @@ name: Builb Test and push
 on: [push]
 env:
   IMAGE_NAME: service
-  REPO_NAME: Vasilis421/DevOps_Assignment1
+  REPO_NAME: https://github.com/Vasilis421/DevOps_Assignment1
   
 
 
