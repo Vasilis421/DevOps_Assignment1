@@ -39,5 +39,5 @@ jobs:
 
     - name: Push image to docker hub Container Registry
       run: |
-        docker tag devops/student_service vasilis421/$IMAGE_NAME:version2 && \
-          docker push devops/student_service
+        docker tag devops/student_service vasilis421/student_service:version2 && \
+          docker push vasilis421/student_service:version2
