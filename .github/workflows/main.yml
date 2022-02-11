@@ -16,7 +16,7 @@ jobs:
         docker build . -t devops/student_service
     - name: run docker
       run: |
-        docker run -d -e 8080:8080 --hostname 172.17.0.2 devops/student_service:latest && \
+        docker run -d -e 8080:8080 -host=172.17.0.2 devops/student_service:latest && \
           docker ps && sleep 5
 
     - name: Run API Tests
